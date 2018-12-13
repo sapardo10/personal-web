@@ -1,9 +1,28 @@
+:root {
+  /* Color */
+  --primary-color: #6200ee;
+  --primary-variant: #3700b3; 
+  --secondary-color: #03dac6; 
+  --secondary-variant: #018786;
+  --background: #ffffff;
+  --surface: #ffffff;
+  --error: #B00020;
+  --on-primary: #ffffff;
+  --on-secondary: #000000;
+  --on-background: #000000;
+  --on-surface: #000000;
+  --on-error: #ffffff;
+
+  /*Fonts*/
+  --main-font:'Archivo', sans-serif;
+  --secondary-font:'Montserrat', sans-serif;
+}
+
 body {
+  font-family: var(--main-font);
+  background-color: white;
   margin: 0;
   padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Archivo', sans-serif;
 }
 
 code {

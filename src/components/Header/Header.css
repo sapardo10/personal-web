@@ -1,0 +1,14 @@
+.navbar {
+    background-color: var(--primary-color);
+    text-align: center;
+    vertical-align: center;
+}
+
+h1{
+    margin-top: 0;
+    color: var(--on-primary);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: var(--on-primary);
+}

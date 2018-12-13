@@ -1,3 +1,8 @@
+.App{
+  width: 100%;
+  text-align: center;
+}
+
 h1 {
   font-size: 4vw;
 }
